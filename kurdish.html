@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEXA | Kurdish Fashion House</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+    <input type="checkbox" id="theme-toggle" class="theme-checkbox" aria-label="Toggle Light and Dark Mode" />
+
+    <div class="site-wrapper">
+        <div class="top-promo-bar">
+            <span class="promo-highlight">✦ LEXA RUNWAY 2026 ✦</span> Complimentary Worldwide Express Courier on Orders Above $250
+        </div>
+
+        <header class="header-main">
+            <input type="checkbox" id="mobile-menu-toggle" class="mobile-menu-checkbox" aria-label="Toggle Mobile Navigation" />
+
+            <div class="luxury-container">
+                <div class="nav-container">
+                    <a href="index.html" class="lexa-logo" title="LEXA Home">
+                        <span>LE</span>
+                        <svg class="lexa-chevron-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path d="M22 15 L50 50 L22 85 L36 85 L64 50 L36 15 Z" fill="#d4af37" />
+                            <path d="M50 15 L78 50 L50 85 L64 85 L92 50 L64 15 Z" fill="#997314" />
+                        </svg>
+                        <span>A</span>
+                    </a>
+
+                    <nav class="nav-tabs-list" aria-label="Primary Navigation">
+                        <a href="index.html" class="nav-tab-label"><i class="fa-solid fa-fire"></i> Home</a>
+                        <a href="italian.html" class="nav-tab-label"><i class="fa-solid fa-gem"></i> Italian</a>
+                        <a href="turkish.html" class="nav-tab-label"><i class="fa-solid fa-crown"></i> Turkish</a>
+                        <a href="arabic.html" class="nav-tab-label"><i class="fa-solid fa-feather-pointed"></i> Arabic</a>
+                        <a href="kurdish.html" class="nav-tab-label active" aria-current="page"><i class="fa-solid fa-sun"></i> Kurdish</a>
+                        <a href="kids.html" class="nav-tab-label"><i class="fa-solid fa-child-reaching"></i> Kids</a>
+                    </nav>
+
+                    <div class="header-actions">
+                        <label for="theme-toggle" class="theme-toggle-btn" title="Switch Light / Dark Mode">
+                            <span class="theme-label-light"><i class="fa-solid fa-sun"></i> <span>Light</span></span>
+                            <span class="theme-label-dark"><i class="fa-solid fa-moon"></i> <span>Dark</span></span>
+                        </label>
+
+                        <a href="#modal-ku-1" class="header-spotlight-btn" title="Spotlight Piece" aria-label="Open Kurdish Spotlight Piece">
+                            <i class="fa-solid fa-star"></i>
+                        </a>
+
+                        <label for="mobile-menu-toggle" class="mobile-menu-btn" title="Toggle Navigation" aria-label="Open Menu">
+                            <i class="fa-solid fa-bars icon-open"></i>
+                            <i class="fa-solid fa-xmark icon-close"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="mobile-dropdown" aria-label="Mobile Navigation">
+                <a href="index.html" class="nav-tab-label"><i class="fa-solid fa-fire"></i> Home (Trending)</a>
+                <a href="italian.html" class="nav-tab-label"><i class="fa-solid fa-gem"></i> Italian Fashion</a>
+                <a href="turkish.html" class="nav-tab-label"><i class="fa-solid fa-crown"></i> Turkish Fashion</a>
+                <a href="arabic.html" class="nav-tab-label"><i class="fa-solid fa-feather-pointed"></i> Arabic Fashion</a>
+                <a href="kurdish.html" class="nav-tab-label active" aria-current="page"><i class="fa-solid fa-sun"></i> Kurdish Fashion</a>
+                <a href="kids.html" class="nav-tab-label"><i class="fa-solid fa-child-reaching"></i> Kids Fashion</a>
+            </nav>
+        </header>
+
+        <main class="page-fade-in">
+            <section class="category-page-banner">
+                <span class="banner-badge">ROYAL ZAGROS &amp; MESOPOTAMIAN HERITAGE</span>
+                <h1 class="banner-title">KURDISH <span class="gold-gradient-text">FASHION HOUSE</span></h1>
+                <p class="banner-desc">Mastercrafted Kurdish attire celebrating timeless national identity. Featuring prestigious Rank &amp; Chokha suits, gold-embroidered pishtends, radiant royal silk Kawas, and jewel-encrusted velvet vests.</p>
+            </section>
+
+            <div class="luxury-container">
+                <div class="gender-divider">
+                    <h2><i class="fa-solid fa-mars"></i> Kurdish Men's Traditional &amp; Modern Attire</h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="product-grid">
+                    <article class="glass-card">
+                        <div class="card-img-holder">
+                            <span class="shimmer-badge badge-pos">SAVE 35%</span>
+                            <img src="clothes/kurdish/MAN/١.jpg" alt="Imperial Hand-Woven Rank and Chokha Suit" />
+                            <a href="#modal-ku-1" class="zoom-hint-btn" aria-label="View Rank and Chokha Suit"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                        <div class="card-info">
+                            <span class="card-cat">Kurdish Men • Royal Attire</span>
+                            <h3 class="card-title">Imperial Hand-Woven Rank &amp; Chokha Suit</h3>
+                            <div class="price-box">
+                                <span class="current-price">$260</span>
+                                <span class="old-price">$400</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="palette-label">Colors:</span>
+                            <div class="color-swatches-box">
+                                <span class="swatch-dot swatch-camel" title="Earthy Khaki"></span>
+                                <span class="swatch-dot swatch-black" title="Obsidian Black"></span>
+                                <span class="swatch-dot swatch-navy" title="Deep Midnight"></span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="glass-card">
+                        <div class="card-img-holder">
+                            <span class="shimmer-badge badge-pos">SAVE 32%</span>
+                            <img src="clothes/kurdish/MAN/٢.jpg" alt="Bespoke Muradkhani Suit with Golden Pishtend" />
+                            <a href="#modal-ku-2" class="zoom-hint-btn" aria-label="View Muradkhani Suit"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                        <div class="card-info">
+                            <span class="card-cat">Kurdish Men • Modern Cut</span>
+                            <h3 class="card-title">Bespoke Muradkhani Suit with Golden Pishtend</h3>
+                            <div class="price-box">
+                                <span class="current-price">$225</span>
+                                <span class="old-price">$330</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="palette-label">Colors:</span>
+                            <div class="color-swatches-box">
+                                <span class="swatch-dot swatch-black" title="Raven Black"></span>
+                                <span class="swatch-dot swatch-gold" title="Sun Gold Accents"></span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="gender-divider">
+                    <h2><i class="fa-solid fa-venus"></i> Kurdish Women's Haute Couture Gowns</h2>
+                    <div class="line"></div>
+                </div>
+
+                <div class="product-grid">
+                    <article class="glass-card">
+                        <div class="card-img-holder">
+                            <span class="shimmer-badge badge-pos">SAVE 36%</span>
+                            <img src="clothes/kurdiSH/WOMEN/1.jpg" alt="Pure Silk Gold-Embroidered Kawa and Kraas" />
+                            <a href="#modal-ku-3" class="zoom-hint-btn" aria-label="View Silk Kawa and Kraas"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                        <div class="card-info">
+                            <span class="card-cat">Kurdish Women • Royal Gown</span>
+                            <h3 class="card-title">Pure Silk Gold-Embroidered Kawa &amp; Kraas</h3>
+                            <div class="price-box">
+                                <span class="current-price">$295</span>
+                                <span class="old-price">$460</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="palette-label">Colors:</span>
+                            <div class="color-swatches-box">
+                                <span class="swatch-dot swatch-gold" title="Royal Gold"></span>
+                                <span class="swatch-dot swatch-burgundy" title="Imperial Crimson"></span>
+                                <span class="swatch-dot swatch-black" title="Night Sky"></span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="glass-card">
+                        <div class="card-img-holder">
+                            <span class="shimmer-badge badge-pos">SAVE 34%</span>
+                            <img src="clothes/kurdiSH/WOMEN/2.jpg" alt="Burgundy Velvet Helek Vest and Golden Coin Belt" />
+                            <a href="#modal-ku-4" class="zoom-hint-btn" aria-label="View Velvet Helek Vest"><i class="fa-solid fa-magnifying-glass-plus"></i></a>
+                        </div>
+                        <div class="card-info">
+                            <span class="card-cat">Kurdish Women • Heritage Ensemble</span>
+                            <h3 class="card-title">Burgundy Velvet Hêlek Vest &amp; Golden Coin Belt</h3>
+                            <div class="price-box">
+                                <span class="current-price">$245</span>
+                                <span class="old-price">$370</span>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <span class="palette-label">Colors:</span>
+                            <div class="color-swatches-box">
+                                <span class="swatch-dot swatch-burgundy" title="Velvet Ruby"></span>
+                                <span class="swatch-dot swatch-gold" title="24K Filigree"></span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </main>
+
+        <!-- KURDISH MODALS -->
+        <div id="modal-ku-1" class="pure-css-modal">
+            <a href="#modal-closed" class="modal-backdrop-close" aria-label="Close Preview"></a>
+            <div class="modal-content-box">
+                <a href="#modal-closed" class="modal-close-btn" title="Close Lightbox">&times;</a>
+                <div class="modal-img-preview">
+                    <img src="clothes/kurdish/MAN/١.jpg" alt="Imperial Hand-Woven Rank and Chokha Suit Zoomed" />
+                    <div class="modal-zoom-tip"><i class="fa-solid fa-magnifying-glass"></i> Hover over photo to zoom</div>
+                </div>
+                <div class="modal-details">
+                    <div>
+                        <span class="modal-tag">KURDISH HERITAGE • SARTORIAL EXCELLENCE</span>
+                        <h2 class="modal-title">Imperial Hand-Woven Rank &amp; Chokha Suit</h2>
+                        <div class="price-box">
+                            <span class="current-price">$260</span>
+                            <span class="old-price">$400</span>
+                            <span class="shimmer-badge">SAVE 35%</span>
+                        </div>
+                        <p class="modal-desc">
+                            Exquisitely loomed using natural mountain wool. Complemented with authentic silk piping, an artisan-woven Pishtend sash belt, and structured cuffs.
+                        </p>
+                        <span class="modal-meta-label">Tailored Sizing:</span>
+                        <div class="size-tags">
+                            <span class="size-pill">Custom Fit</span>
+                            <span class="size-pill featured">M (48-50)</span>
+                            <span class="size-pill">L (52-54)</span>
+                            <span class="size-pill">XL (56)</span>
+                        </div>
+                    </div>
+                    <a href="#modal-closed" class="btn-gold modal-close-cta">Close Preview</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-ku-2" class="pure-css-modal">
+            <a href="#modal-closed" class="modal-backdrop-close" aria-label="Close Preview"></a>
+            <div class="modal-content-box">
+                <a href="#modal-closed" class="modal-close-btn" title="Close Lightbox">&times;</a>
+                <div class="modal-img-preview">
+                    <img src="clothes/kurdish/MAN/٢.jpg" alt="Bespoke Muradkhani Suit Zoomed" />
+                    <div class="modal-zoom-tip"><i class="fa-solid fa-magnifying-glass"></i> Hover over photo to zoom</div>
+                </div>
+                <div class="modal-details">
+                    <div>
+                        <span class="modal-tag">KURDISH HERITAGE • MODERN MURADKHANI</span>
+                        <h2 class="modal-title">Bespoke Muradkhani Suit with Golden Pishtend</h2>
+                        <div class="price-box">
+                            <span class="current-price">$225</span>
+                            <span class="old-price">$330</span>
+                            <span class="shimmer-badge">SAVE 32%</span>
+                        </div>
+                        <p class="modal-desc">
+                            A sharp, contemporary silhouette inspired by classic Muradkhani tailoring. Detailed with subtle golden filament stitching along the lapels and matching silk sash.
+                        </p>
+                        <span class="modal-meta-label">Tailored Sizing:</span>
+                        <div class="size-tags">
+                            <span class="size-pill">S</span>
+                            <span class="size-pill featured">M</span>
+                            <span class="size-pill">L</span>
+                            <span class="size-pill">XL</span>
+                        </div>
+                    </div>
+                    <a href="#modal-closed" class="btn-gold modal-close-cta">Close Preview</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-ku-3" class="pure-css-modal">
+            <a href="#modal-closed" class="modal-backdrop-close" aria-label="Close Preview"></a>
+            <div class="modal-content-box">
+                <a href="#modal-closed" class="modal-close-btn" title="Close Lightbox">&times;</a>
+                <div class="modal-img-preview">
+                    <img src="clothes/kurdiSH/WOMEN/1.jpg" alt="Pure Silk Gold-Embroidered Kawa and Kraas Zoomed" />
+                    <div class="modal-zoom-tip"><i class="fa-solid fa-magnifying-glass"></i> Hover over photo to zoom</div>
+                </div>
+                <div class="modal-details">
+                    <div>
+                        <span class="modal-tag">KURDISH COUTURE • ROYAL WOMEN</span>
+                        <h2 class="modal-title">Pure Silk Gold-Embroidered Kawa &amp; Kraas</h2>
+                        <div class="price-box">
+                            <span class="current-price">$295</span>
+                            <span class="old-price">$460</span>
+                            <span class="shimmer-badge">SAVE 36%</span>
+                        </div>
+                        <p class="modal-desc">
+                            Royal celebration gown created with shimmering gossamer chiffon and an outer brocade coat (Kawa) woven with metallic gold Zer threading and traditional flowing sleeves (Feqyane).
+                        </p>
+                        <span class="modal-meta-label">Available Sizes:</span>
+                        <div class="size-tags">
+                            <span class="size-pill">XS</span>
+                            <span class="size-pill featured">S</span>
+                            <span class="size-pill">M</span>
+                            <span class="size-pill">L</span>
+                        </div>
+                    </div>
+                    <a href="#modal-closed" class="btn-gold modal-close-cta">Close Preview</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="modal-ku-4" class="pure-css-modal">
+            <a href="#modal-closed" class="modal-backdrop-close" aria-label="Close Preview"></a>
+            <div class="modal-content-box">
+                <a href="#modal-closed" class="modal-close-btn" title="Close Lightbox">&times;</a>
+                <div class="modal-img-preview">
+                    <img src="clothes/kurdiSH/WOMEN/2.jpg" alt="Burgundy Velvet Helek Vest Zoomed" />
+                    <div class="modal-zoom-tip"><i class="fa-solid fa-magnifying-glass"></i> Hover over photo to zoom</div>
+                </div>
+                <div class="modal-details">
+                    <div>
+                        <span class="modal-tag">KURDISH COUTURE • ARTISAN ENSEMBLE</span>
+                        <h2 class="modal-title">Burgundy Velvet Hêlek Vest &amp; Golden Coin Belt</h2>
+                        <div class="price-box">
+                            <span class="current-price">$245</span>
+                            <span class="old-price">$370</span>
+                            <span class="shimmer-badge">SAVE 34%</span>
+                        </div>
+                        <p class="modal-desc">
+                            Heavyweight ruby velvet vest lined with silk damask and finished with intricate bullion gold needlework, accompanied by a traditional hand-crafted metallic coin belt.
+                        </p>
+                        <span class="modal-meta-label">Available Sizes:</span>
+                        <div class="size-tags">
+                            <span class="size-pill">S</span>
+                            <span class="size-pill featured">M</span>
+                            <span class="size-pill">L</span>
+                        </div>
+                    </div>
+                    <a href="#modal-closed" class="btn-gold modal-close-cta">Close Preview</a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="main-footer">
+            <div class="luxury-container">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <div class="lexa-logo" style="margin-bottom: 12px;">
+                            <span>LE</span>
+                            <svg class="lexa-chevron-svg" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+                                <path d="M22 15 L50 50 L22 85 L36 85 L64 50 L36 15 Z" fill="#d4af37" />
+                                <path d="M50 15 L78 50 L50 85 L64 85 L92 50 L64 15 Z" fill="#997314" />
+                            </svg>
+                            <span>A</span>
+                        </div>
+                        <p>An avant-garde luxury fashion house uniting Italian craftsmanship, Turkish urban streetwear, regal Arabic &amp; Kurdish heritage, and enchanting kids couture.</p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>COLLECTIONS</h4>
+                        <ul>
+                            <li><a href="index.html">Trending Runway 2026</a></li>
+                            <li><a href="italian.html">Italian Sartorial Suits &amp; Gowns</a></li>
+                            <li><a href="turkish.html">Turkish Contemporary Chic</a></li>
+                            <li><a href="arabic.html">Royal Arabian Bishts &amp; Abayas</a></li>
+                            <li><a href="kurdish.html">Kurdish Royal Rank, Chokha &amp; Kawa</a></li>
+                            <li><a href="kids.html">Kids Aristocratic Collection</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>CLIENT CONCIERGE</h4>
+                        <ul>
+                            <li>Complimentary Worldwide Express Courier</li>
+                            <li>Hand-Finished Bespoke Alterations</li>
+                            <li>Certified Authentic Luxury Textiles</li>
+                            <li>Private Runway Virtual Fittings</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>PROJECT DIRECTORS</h4>
+                        <div class="glass-panel directors-card">
+                            <div class="director-row"><span class="director-role">Lead Dev:</span><span class="director-person">ABDULRAHMAN SALIM</span></div>
+                            <div class="director-row"><span class="director-role">UI/UX Design:</span><span class="director-person">HERO HIWA</span></div>
+                            <div class="director-row"><span class="director-role">Haute Curator:</span><span class="director-person">WARDA SALIM</span></div>
+                            <div class="director-row"><span class="director-role">Brand Director:</span><span class="director-person">PARZHIN MASOUD</span></div>
+                            <div class="director-row"><span class="director-role">Testing &amp; QA:</span><span class="director-person">ZANKO ZANA</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>© 2026 LEXA Luxury Fashion House. 100% Pure HTML &amp; CSS Architecture.</span>
+                    <span class="footer-edition">METALLIC GOLD &amp; OBSIDIAN / IVORY EDITION</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
