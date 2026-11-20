@@ -1,0 +1,161 @@
+/* ========================================================
+   CROSS-DEVICE RESPONSIVENESS, TOUCH & ACCESSIBILITY
+   ======================================================== */
+
+/* Laptops & Tablets: Switch to Mobile Drawer before Nav wraps */
+@media (max-width: 1120px) {
+    .nav-tabs-list {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: inline-flex;
+    }
+}
+
+/* Tablets & Large Phones */
+@media (max-width: 768px) {
+    .luxury-container {
+        padding: 0 18px;
+    }
+
+    .hero-slider-wrap {
+        height: 68vh;
+        min-height: 460px;
+    }
+
+    .tribute-section {
+        margin-top: -30px;
+        margin-bottom: 44px;
+    }
+
+    .tribute-box {
+        padding: 22px 18px;
+    }
+
+    .modal-content-box {
+        grid-template-columns: 1fr;
+        padding: 22px 18px;
+        gap: 20px;
+    }
+
+    .gender-divider {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .gender-divider h2,
+    .gender-divider h3 {
+        white-space: normal;
+    }
+}
+
+/* Small Phones (iPhone SE, 320px–480px) */
+@media (max-width: 480px) {
+    .luxury-container {
+        padding: 0 14px;
+    }
+
+    .nav-container {
+        min-height: 66px;
+        gap: 8px;
+    }
+
+    .lexa-logo {
+        font-size: 22px;
+        letter-spacing: 2px;
+    }
+
+    .lexa-chevron-svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* Hide text inside theme button on ultra-narrow phones to prevent crowding */
+    .theme-toggle-btn {
+        padding: 8px 11px;
+    }
+
+    .theme-toggle-btn span span {
+        display: none;
+    }
+
+    .hero-slider-wrap {
+        height: auto;
+        min-height: 470px;
+    }
+
+    .hero-overlay {
+        padding: 36px 16px 70px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-actions .btn-gold,
+    .hero-actions .btn-glass {
+        width: 100%;
+    }
+
+    .card-img-holder {
+        height: 290px;
+    }
+
+    .category-page-banner {
+        padding: 40px 16px;
+        margin-bottom: 34px;
+    }
+
+    .main-footer {
+        padding: 48px 0 24px;
+        margin-top: 48px;
+    }
+}
+
+/* Landscape Smartphones */
+@media (max-height: 520px) and (orientation: landscape) {
+    .hero-slider-wrap {
+        height: auto;
+        min-height: 400px;
+    }
+
+    .hero-overlay {
+        position: relative;
+        min-height: 400px;
+        padding: 40px 20px 64px;
+    }
+}
+
+/* Touch Devices (Phones / Tablets): Always show zoom icon */
+@media (hover: none), (pointer: coarse) {
+    .zoom-hint-btn {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .glass-card:hover {
+        transform: none;
+    }
+
+    .modal-img-preview:hover img {
+        transform: none;
+    }
+
+    .modal-zoom-tip {
+        display: none;
+    }
+}
+
+/* Reduced Motion Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
